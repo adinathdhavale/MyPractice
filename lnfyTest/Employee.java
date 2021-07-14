@@ -16,9 +16,6 @@ public class Employee implements Cloneable {
     protected Object clone() throws CloneNotSupportedException
     {
     	Employee cloned = (Employee)super.clone();
-        //cloned.setDepartment((Department)cloned.getDepartment().clone());   
-    	//cloned.setDepartment((Department) cloned.getDepartment().clone()); 
-
         return cloned;
     }
     
