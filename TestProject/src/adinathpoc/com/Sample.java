@@ -7,6 +7,7 @@ public class Sample {
 
 		System.out.println("Hello Java..");
 		System.out.println("check push..");
+		System.out.println("check push and pull");
 	}
 
 }
